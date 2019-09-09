@@ -24,11 +24,10 @@ body{
 	margin: auto;
 	position: absolute;
 	top: 0;
-	left: 800px;
+	left: 45%;
 }
 
 .logo{
-	font-size: 50px;
 	padding-top: 200px;
 }
 
@@ -56,8 +55,7 @@ body{
 
 .about{
 	height: 250px;
-	background-color: #F4F4F4;
-	
+	background-color: #F4F4F4;	
 	color: #333333;
 }
 
@@ -80,4 +78,108 @@ footer{
 	text-align: center;
 	padding-top: 30px;
 	font-size: 20px;
+}
+
+
+
+
+
+@media screen and (max-width: 991px) {
+/* start of large tablet styles */
+.container{
+	width: 15%;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 44%;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.grid-3{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.grid-2{
+	display: flex;
+	width: 100%;
+	margin: auto;
+	padding-top: 50px;
+}
+}
+
+
+@media screen and (max-width: 767px) {
+/* start of medium tablet styles */
+	.container{
+	width: 25%;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 40%;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.youtube{
+	padding-right: 10px;
+}
+}
+
+
+
+
+@media screen and (max-width: 479px) {
+/* start of phone styles */
+	.container{
+	width: 50%;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 28%;
+}
+
+.logo img{
+	width: 70%;
+}
+
+.details{
+	height: 650px;
+	background-color: #191919;
+	color: white;
+}
+
+.grid-3{
+	width: 60%;
+	margin: auto;
+	display: block;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.about{
+	height: 450px;
+	background-color: #F4F4F4;	
+	color: #333333;
+	text-align: center;
+}
+
+.grid-2{
+	display: block;
+	width: 60%;
+	margin: auto;
+	padding-top: 50px;
+}
+
+.logo-about{
+	padding-left: 50px;
+}
 }

@@ -1,0 +1,83 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.showcase{
+	color: white;
+	text-align: center;
+}
+
+.bg{
+	height: 100vh;
+	background-image: url("../img/apple-black-and-white-black-and-white-169573.jpg");
+	background-position: center;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(10px);
+	-o-filter: blur(10px);
+	-ms-filter: blur(10px);
+	filter: blur(10px);	
+}
+
+.container{
+	width: 15%;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 800px;
+}
+
+.logo{
+	font-size: 50px;
+	padding-top: 200px;
+}
+
+.container h2{
+	font-size: 30px;
+}
+
+.details{
+	height: 250px;
+	background-color: #191919;
+	color: white;
+}
+
+.grid-3{
+	width: 60%;
+	margin: auto;
+	display: flex;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.details .icon{
+	font-size: 40px;
+}
+
+.about{
+	height: 250px;
+	background-color: #F4F4F4;
+	
+	color: #333333;
+}
+
+.grid-2{
+	display: flex;
+	width: 30%;
+	margin: auto;
+	padding-top: 50px;
+}
+
+.grid-2 .icon{
+	font-size: 160px;
+	padding-right: 60px;
+}
+
+footer{
+	height: 60px;
+	background-color: #333333;
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 20px;
+}
